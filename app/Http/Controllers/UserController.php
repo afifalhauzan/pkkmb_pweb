@@ -17,7 +17,7 @@ class UserController extends Controller
     public function edit()
     {
         $user = User::first();
-        return view('profile', compact('user'));
+        return view('profile.profile', compact('user'));
     }
 
     public function update(Request $request)
