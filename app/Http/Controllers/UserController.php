@@ -11,7 +11,8 @@ class UserController extends Controller
     {
         // Example: Get the first user (you can replace with authentication later)
         $user = User::first();
-        return view('welcome', compact('user'));
+        //return view('welcome', compact('user'));
+        return view('welcome');
     }
 
     public function edit()
